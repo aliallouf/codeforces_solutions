@@ -18,6 +18,20 @@ for i in s:
         
 print(c)                    
 
-    """
-    
+ """
+    n = int(input())
+shapes = {
+    'Tetrahedron': 4,
+    'Cube': 6,
+    'Octahedron': 8,
+    'Dodecahedron': 12,
+    'Icosahedron': 20,
+}
+total_faces = 0
+
+for _ in range(n):
+    shape = input()
+    total_faces += shapes[shape]
+
+print(total_faces)
     """
